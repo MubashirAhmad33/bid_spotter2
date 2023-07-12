@@ -1,0 +1,113 @@
+:root {
+  /* ----Background Colors------ */
+  --bg_color1: #4811bd;
+  --bg_color2: #ffffff;
+  --bg_color3: #d9d9d9;
+  --bg_color4: #ff7a42;
+  --bg_color5: #8e6262;
+  /* ----- Border Colors------ */
+  --bd_color1: #594d4d;
+  /* ----- Text Colors------ */
+  --txt_color1: #ffffff;
+  --txt_color2: #594d4d;
+  --txt_color3: #ff7a42;
+  --txt_color4: #000000;
+  --txt_color5: #272121;
+  --txt_color6: #4811bd;
+  --txt_color7: #413960;
+}
+
+.RightCard {
+  background-color: #fff;
+  padding: 5px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.leftside img {
+  width: 270px;
+  height: 310px;
+  object-fit: cover;
+}
+.para_head_rightside {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--txt_color7);
+}
+.text_watch_rightside {
+  margin-left: 10px;
+  line-height: 40px;
+}
+.OrderList_rightside {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin-top: 10px;
+}
+.Listitem_rightside {
+  border: 2px solid var(--txt_color4);
+  border-radius: 10px;
+  text-align: center;
+  background-color: var(--bg_color3);
+}
+.btncontainer_rightside {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.rightsidebtn {
+  padding: 5px;
+  border: none;
+  background-color: none;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.actives {
+  background-color: var(--bg_color1);
+  color: var(--txt_color1);
+  border: 1px solid var(--txt_color4);
+  border-radius: 5px;
+  transition: 0.3s ease-in;
+}
+/* Media Query */
+
+@media (max-width: 996px) {
+  .para_head_rightside {
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--txt_color7);
+  }
+  .text_watch_rightside {
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 30px;
+  }
+  .OrderList_rightside {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+  }
+  .Listitem_rightside {
+    border: 2px solid var(--txt_color4);
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--bg_color3);
+    font-size: 12px;
+  }
+  .btncontainer_rightside {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .rightsidebtn {
+    padding: 5px;
+    border: none;
+    background-color: none;
+    text-transform: capitalize;
+    width: 80px;
+    font-size: 10px;
+  }
+}

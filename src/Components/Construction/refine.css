@@ -1,0 +1,137 @@
+.refine-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+.l-refine{
+    width: 40%;
+}
+.r-refine{
+    width: 60%;
+}
+.r-refine-head{
+  
+
+font-weight: 400;
+font-size: 20px;
+/* identical to box height */
+
+text-transform: capitalize;
+}
+.stars{
+    position: relative;
+    left: 75%;
+    margin-top: -17%;
+}
+.carosuel-text{
+    text-transform: capitalize;
+   padding: 20px;
+   font-weight: 500;
+   font-size: 18px;
+}
+.current-bid{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+text-transform: capitalize;
+padding: 15px;
+color: rgba(0, 0, 0, 0.61);
+margin-top: -2rem;
+}
+.gbp12{
+margin-left: 50%;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+text-transform: capitalize;
+color: #413960;
+}
+.max-btn{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+text-align: center;
+text-transform: capitalize;
+color: rgba(39, 33, 33, 0.55);
+/* width: 227.14px;
+height: 32.5px; */
+width: 70%;
+height: 32.5px;
+background: none;
+}
+.bid-btn{
+/* width: 85.18px;
+height: 32.5px; */
+width: 25%;
+height: 32.5px;
+color:white;
+background: #4811BD;
+border: none;
+}
+.adi-btn{
+    border: none;
+    text-transform: capitalize;
+    background: none;
+}
+.endin-text{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+}
+.endin-text>span{
+    font-weight: 600;
+
+}
+.refine-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+@media(max-width:995px){
+    .refine-card{
+        display: block;     
+}
+.card-img{
+    width: 100%;
+}
+.main-refine div{
+    margin-bottom: 2rem;
+}
+.stars{
+    left: 80%;
+    margin-top: -45%;
+}}
+@media(max-width:770px){
+    .stars{
+        left: 70%;
+        margin-top: -65%;
+}
+}
+@media(max-width:520px){
+    .stars{
+        left: 70%;
+        margin-top: -75%;
+    }
+}
+@media(max-width:450px){
+    .stars{
+        left: 60%;
+        margin-top: -85%;
+    }
+}
+@media(max-width:400px){
+    .stars{
+        left: 60%;
+        margin-top: -95%;
+    }
+}
+@media(max-width:360px){
+    .stars{
+        left: 57%;
+        margin-top: -107%;
+    }
+}

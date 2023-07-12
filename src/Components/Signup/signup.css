@@ -1,0 +1,117 @@
+:root {
+  /* ----Background Colors------ */
+  --bg_color1: #4811bd;
+  --bg_color2: #ffffff;
+  --bg_color3: #d9d9d9;
+  --bg_color4: #ff7a42;
+  --bg_color5: #8e6262;
+  /* ----- Border Colors------ */
+  --bd_color1: #594d4d;
+  /* ----- Text Colors------ */
+  --txt_color1: #ffffff;
+  --txt_color2: #594d4d;
+  --txt_color3: #ff7a42;
+  --txt_color4: #000000;
+  --txt_color5: #272121;
+  --txt_color6: #4811bd;
+  --txt_color7: #413960;
+}
+
+.background {
+  background-color: var(--bg_color2);
+}
+.signup-con {
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 6px;
+}
+.heading {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: capitalize;
+  color: var(--txt_color4);
+}
+.input-container {
+  position: relative;
+}
+.input-img {
+  position: absolute;
+  left: 14.59%;
+  right: 69.99%;
+  top: 35.98%;
+  width: 20.45px;
+  height: 21.11px;
+}
+.input-fields {
+  width: 80%;
+  padding: 10px;
+  padding-left: 9%;
+  border: 1px solid var(--txt_color4);
+  border-radius: 6px;
+  margin: 1rem;
+}
+::placeholder {
+  color: var(--txt_color4);
+}
+.singin-btn {
+  background-color: var(--bg_color1);
+  color: var(--txt_color1);
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 1rem;
+  border: none;
+  width: 10rem;
+}
+.forgotpassword {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--txt_color6);
+}
+.btn-sinup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+.HaveanAccount {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: var(--txt_color4);
+}
+.signupbtn_outline {
+  border: 1px solid var(--txt_color4);
+  padding: 10px;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+@media (max-width: 652px) {
+  .input-fields {
+    width: 80%;
+    padding: 10px;
+    padding-left: 15%;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 1rem;
+  }
+}
+@media (max-width: 413px) {
+  .singin-btn {
+    background-color: #4811bd;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 50%;
+    height: 40px;
+    margin-bottom: 1rem;
+    border: none;
+  }
+}

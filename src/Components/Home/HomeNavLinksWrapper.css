@@ -1,0 +1,48 @@
+:root {
+  /* ----Background Colors------ */
+  --bg_color1: #4811bd;
+  --bg_color2: #ffffff;
+  --bg_color3: #d9d9d9;
+  --bg_color4: #ff7a42;
+  --bg_color5: #8e6262;
+  /* ----- Border Colors------ */
+  --bd_color1: #594d4d;
+  /* ----- Text Colors------ */
+  --txt_color1: #ffffff;
+  --txt_color2: #594d4d;
+  --txt_color3: #ff7a42;
+  --txt_color4: #000000;
+  --txt_color5: #272121;
+  --txt_color6: #4811bd;
+  --txt_color7: #413960;
+}
+.HomeNavLinksWrapper {
+  background-color: var(--bg_color4);
+  width: 200px;
+  height: 35px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  padding: 5px;
+  color: var(--bg_color2);
+  font-weight: 700;
+  font-size: 14px;
+  position: relative;
+  z-index: 1;
+  text-transform: capitalize;
+  border-bottom: 2px solid var(--bg_color2);
+  gap: 20px;
+}
+.HomeNavLinksWrapper li {
+  list-style: none;
+}
+.LinksWrapper {
+  list-style: none;
+  z-index: 2;
+  position: absolute;
+  top: 70px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}

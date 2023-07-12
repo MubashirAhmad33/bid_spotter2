@@ -1,0 +1,36 @@
+.BrolynCard{
+background-color: #fff;
+text-transform: capitalize;
+padding: 5px 0;
+
+}
+
+.brolynlogotext{
+font-weight: 600;
+font-size: 24px;
+margin-left: 10px;
+}
+.Brolyn-Email{
+text-align: center;
+
+}
+.Brolyn-Email-para{
+
+font-weight: 400;
+font-size: 20px;
+}
+.ColorEmail{
+color: var(--txt_color6);
+
+}
+.unorder-list{
+    list-style: none;
+}
+.BrolynListitem{
+    margin-bottom: 12px;
+ 
+font-weight: 400;
+font-size: 16px;
+ 
+text-transform: capitalize;
+}
